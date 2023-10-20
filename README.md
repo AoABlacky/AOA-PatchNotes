@@ -1,10 +1,10 @@
 # AOA-PatchNotes
-#Build 0.1.18
+# Build 0.1.18 (October 2023)
 
 # General:
-- Maintenance: Bug tracker added. DM Blacky for access if you want to help and report bugs you find.
-- Equipment: All equipment stats have been completely rebalanced.
-- 
+- Maintenance: Bug tracker added! DM Blacky for access if you want to help and report bugs you find.
+- Removed the issue where morphing into a bunny lets you carry around weapons on its back.
+- Multiple new code features & scripts added for various use-cases like sounds, animation behaviors and optimization behavior.
 
 # World:
 - Velledor Spring added, mostly fleshed out. Proping required.
@@ -17,6 +17,8 @@
 - Greenwood Tomb has been added.
 - Greenwood Spring Pond added.
 - Silirad Ponds added.
+- Gremlin Camps (multiple locations) added.
+- Bandit Camp area terrain mapped out - albeit not yet added.
 - Rathos Fields have been added.
 - Mobs around Greenwood & the Rathos Fields have been added.
 - Velledor (instance) has been added.
@@ -31,27 +33,43 @@
 - Impostors for all objects have been recreated from scratch including new LOD levels and settings.
 - Server mob-loading performance has been optimized and increased.
 - New wildlife mobs have been added.
-- Visual effects for nature (birds, etc.) have been added & existing ones have been adjusted.
+- Visual effects for nature (birds, etc.) have been added & existing ones have been adjusted for performance.
+- Fish have been optimized.
+- All old VFX for water has been completely replaced.
+- Camera underwater effects for all underwater zones have been implemented.
+- Various shader performance optimizations.
+- Enabled a multitude of new terrains (which will be fleshed out in the following weeks).
 
-
-# Combat:
+# Gameplay and Combat:
 - Complete rework of the player's abilities (values, timing, damage, animations, and sound).
 - Complete rework of mob abilities (same as for players).
 - All monsters have their own AI and a set of 3 different attacks depending on their cooldown times and health status.
 - Skills are now locked to the ability level (not all unlock at once, instantaneously). This will be fleshed out further in 2024 for a skill-tree unlock system.
-- 
-- 
+- All equipment has been completely rebalanced (armor, accessories). Weapons as well as monster stats still need proper values and bosses fall like flies.
+- Bug fixes for animation durations and transitions, missing animations.
+- All missing swim zones have been implemented.
+- Added roaming NPCs around the map.
+- Added sample "bark" dialogue chatter to NPCs. Currently, it's placeholder talk.
+- Added the first instance of a Notice Board in Silirad. This will be fleshed out in future builds.
 
 # Audio:
 - Music zones set up almost everywhere in all new locations.
-- Equ
-- New wildlife mobs have now sounds attached.
-- New sound framework: all sounds in the game are run through it so environment SFX will act differently.
-- There are missing sounds, especially around water areas, but it's still WIP.
+- SFX zones are set up for almost all objects that need it (streams, lakes, waterfalls).
+- Wildlife mobs have now sounds attached.
+
+# Report requests (please report the following as bugs): 
+- Missing sounds for things you believe need a sound.
+- Missing visual effects for any mob or player attack.
+- Issues with sound abruptly cutting off, ending, or disappearing instead of smoothly fading out.
+- Issues with sound getting distorted.
+- Falling through the terrain, anywhere (remember about /stuck).
+- Missing Loot from mobs (or wrong loot, or nonsensical loot).
+- Game Settings not carrying over between maps/worlds/play sessions.
+- Broken, too high, too low, or missing swimming areas.
+- Ground sounds being wrong, missing, or simply not appearing in certain areas.
 
 
-#Report requests (please report the following as bugs): 
-
-- If you find missing sounds for things you believe need a sound, report it as a bug.
-- If you find missing visual effects
-- If you find issues with sound abruptly 
+# There are many more fixes... 
+- but frankly speaking, we literally get so much done, that we forget to list all of it. Full change history of every change to the game, ever, can be found on our Discord.
+- https://discord.com/channels/147113220820172800/717068695599448065
+- 
