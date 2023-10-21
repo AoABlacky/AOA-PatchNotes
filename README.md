@@ -39,6 +39,8 @@
 - Camera underwater effects for all underwater zones have been implemented.
 - Various shader performance optimizations.
 - Enabled a multitude of new terrains (which will be fleshed out in the following weeks).
+- Magma Cave Dungeon added (Floor 4 proof-of-concept showcase).
+- Forgotten Cavern Dungeon added (Floor 1 - no TP option yet).
 
 # Gameplay and Combat:
 - Complete rework of the player's abilities (values, timing, damage, animations, and sound).
