@@ -1,4 +1,59 @@
 # AOA-PatchNotes
+# Build 0.1.65 (December 2024)
+
+
+# New Features:
+- Introduced a beacon show function for easier navigation.
+- Added follow system (v1) via /follow command in chat.
+- A combat range visualizer was added for enhanced strategy planning.
+- Expanded tattoo system and improved dissolve effects for characters.
+- New camera zoom and pan functionality added.
+- Launcher finalized (Alpha stage, initial releases - will get patches and bug fixes from here on out).
+- 0.1.65 officially released for testers.
+
+# Dungeons & Puzzles:
+- Reworked TOTE with new puzzles (v1) and post-processing.
+- Introduced sequential puzzle systems with reset functionality.
+- Fully implemented collection and rotation puzzles with sound extensions.
+
+# Gameplay Improvements:
+- Targeting System Overhaul: Refined targeting controllers for precision.
+- Loot system revamped — players can now pick up items using the interact key.
+- Removed right-click for attack mode to simplify control schemes.
+
+# Environment & Effects:
+- Updated terrain data and details for better immersion.
+- New vignette script added to coordinate visual effects.
+- Self-shop animations and footsteps detection revamped.
+
+# Creature Updates:
+- Slime slot mechanics reworked with a focus on VFX integration.
+- Added Wyrmbat mob and its resource pointers for biome integration.
+
+# Game Mechanics:
+- Major updates to environmental elements such as terrain, water systems, and foliage.
+- Updated and optimized draw detail settings for various areas.
+- Resolved target portrait loading issues for NPCs/mobs.
+- Introduced time control in character selection, capped at 23:59.
+
+# Visuals & Audio:
+- Initial implementation of a vignette script for visual enhancements.
+- Adjustments to audio scripts in various contexts, including inventory interactions.
+- Townhall fixes with revamped atmospheric biomes for F1.
+- Addressed audio biome playback errors and other minor terrain fixes.
+- Restored point light systems for street lamps and optimized godrays.
+  Added silence tracks and emitter prefabs for smoother audio transitions.
+
+# Performance & Bugs:
+- Significant terrain and environmental optimization for smoother gameplay, especially in F1.
+- Added DCA manager for frame optimization during character loading.
+- Terrain improvements and grass density adjustments.
+- Fixed crafting station canvas hover issue.
+- Enhanced fireflies, SSGI rendering, and resolved puzzle system errors.
+
+
+
+
 # Build 0.1.18 (October 2023)
 
 # General:
